@@ -126,7 +126,7 @@ body {
   /* Section one */
   .section__1 {
     margin: 0 20px;
-    background-color: rgba(166, 221, 251, 0.861);
+    background-color: rgba(110, 183, 222, 0.412);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,54 +140,80 @@ body {
   
   .section__1 .section__text h1 {
      font-size: 40px;
-     font-weight: bold;
+     font-weight: bolder;
     
   }
 
+
+  .section__1 .section__text h3 {
+    font-size: 25px;
+    margin-top: 90px;
+    font-weight: normal;
+  }
+
+
   
   .section__1 .section__text p {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 30px;
+ }
+
+ .section__btn button {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    cursor: pointer;
  }
 
 
   .btn-center  {
-    font-size: 20px;
-    padding:  20px 40px;
+    font-size: 18px;
+    padding:  20px 44px;
     border: none;
     border-radius: 40px;
     background-color: rgb(98, 98, 241);
     color: white;
-   
+    margin: 10px;
   }
 
-  .btn-center__red .bi {
-    display: flex;
-    gap: 10px;
-    
-  }
-/* end of section one */
-
-
-/* begin of section 2 */
-.section__2 {
-
-}
-
-
-.btn-center__red  {
-    font-size: 20px;
-    padding:  20px 40px;
+  .btn-center__red  {
+    font-size: 18px;
+    padding:  20px 44px;
     border: none;
     border-radius: 40px;
     background-color: rgb(241, 55, 126);
     color: white;
-   
   }
+  
 
-  .btn-center .bi {
+  .btn-center__red .bi ,  .btn-center .bi   {
     display: flex;
     gap: 10px;
+  }
+
+
+.img-center {
+    max-width: 100%;
+    height: auto;
+} 
+
+.section__cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+ 
 
 /* 
 ////////////////////////////////////
