@@ -28,8 +28,10 @@ body {
   flex-direction:  row;
   justify-content: space-between;
   background-color: rgba(183, 226, 250, 0.295);
+  
   margin: 0 20px;
   padding: 0 20px;
+  border-right: 2px solid rgba(126, 125, 125, 0.921);
 }
 
 
@@ -197,18 +199,13 @@ body {
     height: auto;
 } 
 
-.section__cards {
+ .section__cards {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-}
+} 
 
-.section__cards {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.section__cards .card__box {
+    background-color: aquamarine;
 }
 
 
