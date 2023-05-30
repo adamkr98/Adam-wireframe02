@@ -47,6 +47,7 @@ body {
     color: #252D38;
     font-size: 2rem;
 
+    padding-left: 1.6rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 
@@ -222,7 +223,7 @@ picksbar-container {
     width: 100%;
 
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
 
     display: flex;
     flex-direction: column;
@@ -230,28 +231,32 @@ picksbar-container {
 }
 
 .timerImage {
+    /* border: red solid 2px; */
     width: 90%;
     height: auto;
+
+    margin-bottom: 2rem;
 }
 
 .timerTextTitle {
     /* border: red solid 2px; */
     width: 90%;
     color: black;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-size: 2rem;
 }
 
 .timerText1,
 .timerText2,
 .timerText3 {
+    /* border: blue solid 2px; */
     width: 90%;
 
     font-size: 1.2rem;
 }
 
 .timerButtonContainer {
-   
+    /* border: red solid 2px; */
     width: 90%;
 
     margin-top: 2rem;
@@ -290,6 +295,7 @@ picksbar-container {
 }
 
 .platformIntegration-container {
+    /* border: red solid 2px; */
     width: 90%;
 
     margin-top: 5rem;
@@ -299,6 +305,9 @@ picksbar-container {
 }
 
 .platformIntegrationTitle {
+    /* border: red solid 2px; */
+    display: flex;
+    font-size: 2rem;
 
     display: flex;
 }
@@ -307,13 +316,15 @@ picksbar-container {
     margin-top: 1rem;
     margin-bottom: 1rem;
 
+    font-size: 1.2rem;
+
     display: flex;
 
 }
 
 .platformIntegrationText2 {
-   
     margin-bottom: 2.2rem;
+    font-size: 1.2rem;
 
     display: flex;
 }
@@ -321,7 +332,7 @@ picksbar-container {
 .trending-container {
 
     width: 100%;
-
+    display: flex;
 }
 
 .trendingImage {
@@ -502,9 +513,234 @@ desktop version
 
 
    .top-content {
+    /* border: red solid 2px; */
     width: 100%;
         
+    margin-top: 6rem;
 
     display: flex;
    }
+
+   .containerText {
+    /* border: green dashed 3px; */
+    width: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+   .containerTopTitleAndText {
+    /* border: orange solid 3px; */
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+
+   .topTextTitle {
+    /* border: blue solid 3px; */
+   }
+
+   .topText {
+    /* border: black dashed 3px; */
+
+    width: 70%;
+    
+   }
+
+   .container-picks {
+    /* border: orange dashed 2px; */
+
+    width: fit-content;
+   }
+
+   .timer-container {
+    /* border: rgb(245, 4, 245) solid 2px; */
+
+    width: 80%;
+
+    padding-left: 4rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .timerImage {
+    /* border: rgb(62, 15, 231) solid 2px; */
+    width: 45%;
+
+    display: flex;
+   }
+
+   .containerTimerText {
+    /* border: rgb(60, 255, 0) solid 2px; */
+
+    width: 45%;
+    
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .timerTextTitle {
+    /* border: red solid 2px; */
+
+    padding-top: 1rem;
+   }
+
+   .timerText1 {
+    /* border: green solid 2px; */
+
+    width: 100%;
+
+    padding-bottom: 1rem;
+
+   }
+
+   .timerText2 {
+    /* border: green solid 2px; */
+
+    width: 80%;
+
+    padding-bottom: 1rem;
+   }
+
+   .timerText3 {
+    /* border: green solid 2px; */
+
+    width: 100%;
+   }
+
+   .timerButtonContainer {
+    /* border: red solid 2px; */
+    
+   }
+
+   .lightbox {
+    width: 7rem;
+    height: 2.5rem;
+   }
+
+   .details {
+    width: 7rem;
+    height: 2.5rem;
+   }
+
+   .platformIntegration-container {
+    /* border: red solid 2px; */
+
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+
+   .containerTitleAndText {
+    /* border: red dashed 3px; */
+
+    width: 54%;
+    height: fit-content;
+
+    margin-top: 11rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .platformIntegrationTitle {
+    /* border: orange dashed 3px; */
+
+    width: 50%;
+
+    
+   }
+
+   .platformIntegrationText1 {
+    /* border: brown solid 3px; */
+
+    width: 50%;
+   }
+
+   .platformIntegrationText2 {
+    /* border: green solid 3px; */
+
+    width: 50%;
+   }
+
+   .trending-container {
+    /* border: violet dashed 3px; */
+
+    width: 46%;
+   }
+
+   .numbersContainer {
+    /* border: rgb(117, 19, 19) solid 2px; */
+    width: 70%;
+
+    margin-top: 3rem;
+    margin-left: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    
+   }
+
+   /* .row1 {
+    border: rgb(43, 255, 0) solid 2px;
+    
+    width: 120%;
+
+    display: flex;
+    justify-content: space-between;
+   } */
+
+   .number1 {
+    /* border: orange solid 3px; */
+
+    display: flex;
+   }
+
+   .number2 {
+    /* border: orange solid 3px; */
+
+    display: flex;
+   }
+
+   /* .row2 {
+    border: red solid 2px;
+    
+    width: 120%;
+
+    display: flex;
+    justify-content: space-between;
+   } */
+
+   .number3 {
+    /* border: orange solid 3px; */
+
+    display: flex;
+   }
+
+   .number4 {
+    /* border: orange solid 3px; */
+
+    display: flex;
+   }
+
+
+
+
+
+
+
+
+
+
+
 }
