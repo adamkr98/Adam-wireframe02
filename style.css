@@ -8,29 +8,107 @@ mobile version
 ///////////////////////////////////*/
 body {
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.hero {
-    background-color: red;
-    width: 100%;
-    
 
-    display: flex;
+
+.bottom-content .toptop {
+    background-image: url("pricing-background.jpg");
+    backface-visibility: 50%;
+    background-color: black;
+    opacity: 0.75;
+    padding: 5%;
+    margin: 5%;
+    text-align: justify;
+    text-align-last: center;
+
+
+}
+.bottom-content .team p{
+    margin: 50px 8% 50px 8%;
+    font-size: 40px;
+    text-align: center;
 }
 
-.myPart {
-    background-color: pink;
-    width: 100%;
-    
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.bottom-content .Pricings{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+
+
 }
+.bottom-content h4{
+    font-size: 20px;
+    color: red;
+}
+
+
+  
+.bottom-content .Standard {
+    width: 100%;
+    background-color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 20px;
+    text-align: center;
+
+
+}
+  
+.bottom-content .Advanced {
+    width: 100%;
+    background-color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 20px;
+    text-align: center;
+
+  }
+  
+.bottom-content .Complete {
+    width: 100%;
+    background-color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.bottom-content .footer{
+    margin-left: 4%;
+    margin-right: 4%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(96, 198, 238) 100%);
+}  
+.blue-text{
+    color : white;
+}
+.bottom-content .footer p{
+    margin: 50px 8% 50px 8%;
+    font-size: 40px;
+    text-align: center;
+}
+.social-media-icons ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 90px 30px 90px;
+  }
+  
+.social-media-icons li {
+    margin-right: 20px;
+    width: 40px; 
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+
 
 
 
@@ -38,7 +116,10 @@ body {
 ////////////////////////////////////
 desktop version 
 ///////////////////////////////////*/
-@media screen and (min-width: 450px) {
+
+
+
+/* @media screen and (min-width: 450px) {
     
     body {
         
@@ -48,21 +129,4 @@ desktop version
         align-items: center;
     }
 
-
-
-    .hero {
-     
-
-        display: flex;
-    }
-
-
-    .myPart {
-       
-        width: 100%;
-        
-
-        display: flex;
-       
-    }
-}
+} */
