@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Fa';
+    src: url('webfonts/fa-brands-400.svg') format('truetype'),
+         url('webfonts/fa-regular-400.svg') format('truetype'),
+         url('webfonts/fa-solid-900.svg') format('truetype');
+}
+
+.font400 {
+    font-family: 'Fa', sans-serif;
+    font-weight: 400;
+}
+
+.font600 {
+    font-family: 'Fa', sans-serif;
+    font-weight: 600;
+}
+  
+
 * {
     padding: 0;
     margin: 0;
@@ -426,6 +444,13 @@ picksbar-container {
     align-items: center;
 }
 
+.row3 {
+    /* border: red solid 2px; */
+
+    display: flex;
+    justify-content: center;
+}
+
 .number5 {
     /* border: red solid 2px; */
     width: 100%;
@@ -439,6 +464,8 @@ picksbar-container {
 .review-container {
     background-color: #F0FAFC;
     width: 100%;
+
+    position: relative;
 
     display: flex;
     flex-direction: column;
@@ -478,6 +505,42 @@ picksbar-container {
     margin-bottom: 2rem;
 
     display: flex;
+}
+
+.arrowsContainer {
+    /* border: red solid 2px; */
+
+    width: 80%;
+    height: 5rem;
+
+    position: absolute;
+    top: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftArrow {
+    border-left: #AAB1B3 solid 3px;
+    border-bottom: #AAB1B3 solid 3px;
+    width: 1rem;
+    height: 1rem;
+
+    transform: rotate(45deg);
+}
+
+.rightArrow {
+    border-right: #AAB1B3 solid 3px;
+    border-top: #AAB1B3 solid 3px;
+    width: 1rem;
+    height: 1rem;
+
+    transform: rotate(45deg);
+}
+
+.containerPhotos {
+    display: none;
 }
 
 .reviewText {
@@ -637,26 +700,29 @@ desktop version
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
    }
 
    .containerTitleAndText {
     /* border: red dashed 3px; */
 
-    width: 54%;
+    width: 48%;
     height: fit-content;
 
-    margin-top: 11rem;
+    padding-left: 7rem;
+    margin-top: 8rem;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-items: center;
    }
 
    .platformIntegrationTitle {
     /* border: orange dashed 3px; */
 
-    width: 50%;
+    width: 65%;
 
     
    }
@@ -664,41 +730,45 @@ desktop version
    .platformIntegrationText1 {
     /* border: brown solid 3px; */
 
-    width: 50%;
+    width: 85%;
    }
 
    .platformIntegrationText2 {
     /* border: green solid 3px; */
 
-    width: 50%;
+    width: 82%;
    }
 
    .trending-container {
     /* border: violet dashed 3px; */
 
-    width: 46%;
+    width: 40%;
+    height: 20%;
+
+    margin-right: 4rem;
+
+    display: flex;
    }
 
    .numbersContainer {
     /* border: rgb(117, 19, 19) solid 2px; */
-    width: 70%;
+    width: 75%;
 
     margin-top: 3rem;
-    margin-left: 3rem;
-
+    
     display: flex;
     flex-direction: row;
     
    }
 
-   /* .row1 {
-    border: rgb(43, 255, 0) solid 2px;
+   .row1 {
+    /* border: rgb(43, 255, 0) solid 2px; */
     
-    width: 120%;
+    width: 40%;
 
     display: flex;
     justify-content: space-between;
-   } */
+   }
 
    .number1 {
     /* border: orange solid 3px; */
@@ -712,14 +782,14 @@ desktop version
     display: flex;
    }
 
-   /* .row2 {
-    border: red solid 2px;
-    
-    width: 120%;
+   .row2 {
+    /* border: green solid 2px; */
+
+    width: 35%;
 
     display: flex;
     justify-content: space-between;
-   } */
+   }
 
    .number3 {
     /* border: orange solid 3px; */
@@ -733,14 +803,165 @@ desktop version
     display: flex;
    }
 
+   .row3 {
+    /* border: rgb(0, 102, 255) solid 2px; */
 
+   }
 
+   .number5 {
+    /* border: orange solid 3px; */
+   }
 
+   .review-container {
+    /* border: red solid 2px; */
+    width: 100%;
+    
+    position: relative;
+    padding-bottom: 3rem;
 
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+   }
 
+   .reviewTitle {
+    /* border: red solid 2px; */
+    font-size: 2rem;
 
+    position: relative;
 
+    display: flex;
+   }
 
+   .photo {
+    display: none;
+   }
 
+   .reviewText {
+    display: none;
+   }
 
+    .photos {
+    /* border: rgb(75, 75, 145) solid 3px; */
+    width: 4rem;
+    height: 4rem;
+    
+
+    border-radius: 2.1rem 2.1rem;
+
+    display: flex;
+    
+    }
+
+    .arrowsContainer {
+        /* border: red solid 2px; */
+
+        width: 80%;
+        height: 5rem;
+
+        position: absolute;
+        top: 50%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .leftArrow {
+        border-left: #AAB1B3 solid 3px;
+        border-bottom: #AAB1B3 solid 3px;
+        width: 1rem;
+        height: 1rem;
+
+        transform: rotate(45deg);
+    }
+
+    .rightArrow {
+        border-right: #AAB1B3 solid 3px;
+        border-top: #AAB1B3 solid 3px;
+        width: 1rem;
+        height: 1rem;
+
+        transform: rotate(45deg);
+    }
+
+    .containerPhotos {
+    /* border: rgb(33, 212, 26) solid 2px; */
+
+    width: 80%;
+    height: 12rem;
+
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    
+    }
+
+    .leftPersonReviewContainer {
+        /* border: blue solid 2px; */
+
+        width: 30%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .leftPersonReviewText {
+        text-align: center;
+
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .leftPersonName {
+        font-weight: 600;
+    }
+
+    .centerPersonReviewContainer {
+        /* border: blue solid 2px; */
+
+        width: 30%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .centerPersonReviewText {
+        text-align: center;
+
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .centerPersonName {
+        font-weight: 600;
+    }
+
+    .rightPersonReviewContainer {
+        /* border: blue solid 2px; */
+
+        width: 30%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .rightPersonReviewText {
+        text-align: center;
+
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .rightPersonName {
+        font-weight: 600;
+    }
 }
