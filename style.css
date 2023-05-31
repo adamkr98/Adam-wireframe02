@@ -42,6 +42,7 @@ body {
 }
 
 .top-content {
+    /* border: green solid 2px; */
     background-color: #FFFFFF;
     width: 100%;
     
@@ -52,7 +53,7 @@ body {
 }
 
 .containerText {
-    /* border: rgb(60, 60, 100) solid 2px; */
+    /* border: green solid 2px; */
 
     display: flex;
     flex-direction: column;
@@ -60,8 +61,8 @@ body {
 }
 
 .topTextTitle {
-    /* border: red solid 2px; */
-    width: 80%;
+    /* border: green solid 2px; */
+    width: 90%;
     color: #252D38;
     font-size: 2rem;
 
@@ -86,7 +87,7 @@ body {
 }
 
 .container-picks {
-    /* border: black solid 2px; */
+    /* border: green solid 2px; */
     background: url();
     
     background-repeat: no-repeat;
@@ -110,6 +111,7 @@ body {
 }
 
 .container-picksGradient {
+    /* border: green solid 2px; */
     width: 100%;
 
     display: flex;
@@ -118,7 +120,7 @@ body {
 }
 
 picksbar-container {
-    /* border: red solid 2px; */
+    /* border: green solid 2px; */
     width: 100%;
     
     margin-top: 2rem;
@@ -134,7 +136,7 @@ picksbar-container {
 }
 
 .container-photos {
-    /* border: red solid 2px; */
+    /* border: green solid 2px; */
     background-color: #F0F3F8;
     padding: 0.3rem;
 
@@ -149,7 +151,7 @@ picksbar-container {
 }
 
 .containerGallery {
-    /* border: pink dashed 3px; */
+    /* border: green solid 2px; */
     width: 100%;
     height: 20rem;
 
@@ -158,7 +160,7 @@ picksbar-container {
 }
 
 .galleryColumnLeft {
-    /* border: rgb(66, 33, 33) solid 2px; */
+    /* border: green solid 2px; */
     width: 47%;
     height: auto;
 
@@ -179,7 +181,7 @@ picksbar-container {
 }
 
 .imgLeft {
-    /* border: orange solid 4px; */
+    /* border: green solid 2px; */
     background-image: url(images/Screenshot\ from\ 2023-05-30\ 12-23-47.png);
     
     background-position: center;
@@ -190,7 +192,7 @@ picksbar-container {
 }
 
 .textImageLeft {
-    /* background-color: red; */
+    /* border: green solid 2px; */
     width: 100%;
     height: 1.5rem;
 
@@ -198,7 +200,7 @@ picksbar-container {
 }
 
 .galleryColumnRight {
-    /* border: black solid 2px; */
+    /* border: green solid 2px; */
     width: 47%;
     height: auto;
 
@@ -218,7 +220,7 @@ picksbar-container {
 }
 
 .imgRight {
-    /* border: orange solid 4px; */
+    border: orange solid 4px;
     background-image: url(images/Screenshot\ from\ 2023-05-30\ 12-25-18.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -228,7 +230,7 @@ picksbar-container {
 }
 
 .textImageRight {
-    /* background-color: blue; */
+    /* border: green solid 2px; */
 
     width: 100%;
     height: 1.5rem;
@@ -237,7 +239,7 @@ picksbar-container {
 
 
 .timer-container {
-    /* border: red solid 3px; */
+    /* border: green solid 2px; */
     width: 100%;
 
     margin-top: 5rem;
@@ -249,7 +251,7 @@ picksbar-container {
 }
 
 .timerImage {
-    /* border: red solid 2px; */
+    /* border: green solid 2px; */
     width: 90%;
     height: auto;
 
@@ -257,7 +259,7 @@ picksbar-container {
 }
 
 .timerTextTitle {
-    /* border: red solid 2px; */
+    /* border: green solid 2px; */
     width: 90%;
     color: black;
     margin-bottom: 1rem;
@@ -267,14 +269,14 @@ picksbar-container {
 .timerText1,
 .timerText2,
 .timerText3 {
-    /* border: blue solid 2px; */
+    /* border: green solid 2px; */
     width: 90%;
 
     font-size: 1.2rem;
 }
 
 .timerButtonContainer {
-    /* border: red solid 2px; */
+    /* border: green solid 2px; */
     width: 90%;
 
     margin-top: 2rem;
@@ -287,6 +289,7 @@ picksbar-container {
 }
 
 .lightbox {
+    /* border: green solid 2px; */
     background-color: #594CDA;
     color: white;
 
@@ -313,7 +316,7 @@ picksbar-container {
 }
 
 .platformIntegration-container {
-    /* border: red solid 2px; */
+    /* border: green solid 2px; */
     width: 90%;
 
     margin-top: 5rem;
@@ -323,7 +326,7 @@ picksbar-container {
 }
 
 .platformIntegrationTitle {
-    /* border: red solid 2px; */
+    /* border: green solid 2px; */
     display: flex;
     font-size: 2rem;
 
@@ -331,6 +334,7 @@ picksbar-container {
 }
 
 .platformIntegrationText1 {
+    /* border: green solid 2px; */
     margin-top: 1rem;
     margin-bottom: 1rem;
 
@@ -341,6 +345,7 @@ picksbar-container {
 }
 
 .platformIntegrationText2 {
+    /* border: green solid 2px; */
     margin-bottom: 2.2rem;
     font-size: 1.2rem;
 
@@ -348,20 +353,20 @@ picksbar-container {
 }
 
 .trending-container {
-
+    /* border: green solid 2px; */
     width: 100%;
     display: flex;
 }
 
 .trendingImage {
-    /* border: red solid 2px; */
+    /* border: green solid 2px; */
     width: 100%;
 
    
 }
 
 .numbersContainer {
-   
+    /* border: green solid 2px; */
     width: 90%;
 
     margin-bottom: 7rem;
@@ -373,7 +378,7 @@ picksbar-container {
 }
 
 .row1 {
-    
+    /* border: green solid 2px; */
     width: 100%;
 
     display: flex;
@@ -381,7 +386,7 @@ picksbar-container {
 }
 
 .number1 {
-    
+    /* border: green solid 2px; */
     width: 40%;
     height: 10rem;
 
@@ -408,7 +413,7 @@ picksbar-container {
 }
 
 .number2 {
-    
+    /* border: green solid 2px; */
     width: 40%;
     height: 10rem;
 
@@ -418,6 +423,7 @@ picksbar-container {
 }
 
 .row2 {
+    /* border: green solid 2px; */
     width: 100%;
 
     display: flex;
@@ -425,7 +431,7 @@ picksbar-container {
 }
 
 .number3 {
-   
+    /* border: green solid 2px; */
     width: 40%;
     height: 10rem;
 
@@ -435,7 +441,7 @@ picksbar-container {
 }
 
 .number4 {
-    
+    /* border: green solid 2px; */
     width: 40%;
     height: 10rem;
 
@@ -445,7 +451,7 @@ picksbar-container {
 }
 
 .row3 {
-    /* border: red solid 2px; */
+    /* border: green solid 2px; */
 
     display: flex;
     justify-content: center;
@@ -462,6 +468,7 @@ picksbar-container {
 }
 
 .review-container {
+    /* border: green solid 2px; */
     background-color: #F0FAFC;
     width: 100%;
 
@@ -474,6 +481,7 @@ picksbar-container {
 }
 
 .reviewTitle {
+    /* border: green solid 2px; */
     width: 90%;
 
     font-size: 2.5rem;
@@ -489,6 +497,7 @@ picksbar-container {
 }
 
 .reviewGallery {
+    /* border: green solid 2px; */
     width: 90%;
 
     display: flex;
@@ -497,6 +506,7 @@ picksbar-container {
 }
 
 .photo {
+    /* border: green solid 2px; */
     width: 6rem;
     height: 6rem;
 
@@ -508,7 +518,7 @@ picksbar-container {
 }
 
 .arrowsContainer {
-    /* border: red solid 2px; */
+    /* border: green solid 2px; */
 
     width: 80%;
     height: 5rem;
