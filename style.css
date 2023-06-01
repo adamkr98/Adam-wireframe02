@@ -29,6 +29,13 @@ body {
     background-size: cover;
     z-index: 0;
 }
+.bottom-content .toptop h2{
+    color: rgb(194, 194, 194);
+}
+.bottom-content .toptop p1{
+    color: rgb(194, 194, 194);
+}
+
 .bottom-content .team p{
     font-weight: bolder;
     margin: 50px 8% 50px 8%;
@@ -114,7 +121,7 @@ body {
 
 .bottom-content .Standard {
     width: 100%;
-    background-color: white;
+    background-color: rgb(194, 194, 194);
     padding-top: 4%;
     padding-bottom: 8%;
     border-radius: 15px;
@@ -126,7 +133,7 @@ body {
   
 .bottom-content .Advanced {
     width: 100%;
-    background-color: white;
+    background-color: rgb(194, 194, 194);
     padding-top: 4%;
     padding-bottom: 8%;
     border-radius: 15px;
@@ -138,7 +145,7 @@ body {
   
 .bottom-content .Complete {
     width: 100%;
-    background-color: white;
+    background-color: rgb(194, 194, 194);
     padding-top: 4%;
     padding-bottom: 8%;
     border-radius: 15px;
@@ -221,7 +228,7 @@ desktop version
 
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
     
     body {
         display: flex;
@@ -233,7 +240,6 @@ desktop version
         flex-direction: row;
         width: 100%;
         
-        border: blue solid 4px;
     }
 
     /* .bottom-content .Downl{
@@ -256,13 +262,12 @@ desktop version
         width: 30%;
         margin-right: 0%;
 
-        border: red solid 4px;
     }
     .bottom-content .Standard .Downl{
         margin-left: 0;
         margin-bottom: 0;
         left: 19%;
-        top: 28%;
+        top: 27%;
 
     }
     .bottom-content .Advanced{
@@ -270,13 +275,12 @@ desktop version
         flex-direction: column;
         align-items: center;
         width: 30%;
-        border: green solid 4px;
     }
     .bottom-content .Advanced .Downl{
         margin-left: 0;
         margin-bottom: 0;
         left: 47%;
-        top: 28%;
+        top: 27%;
 
     }
     .bottom-content .Complete{
@@ -284,13 +288,12 @@ desktop version
         flex-direction: column;
         align-items: center;
         width: 30%;
-        border: purple solid 4px;
     }    
     .bottom-content .Complete .Downl{
         margin-left: 0;
         margin-bottom: 0;
-        left: 74%;
-        top: 28%;
+        left: 75%;
+        top: 27%;
 
     }
     
@@ -307,7 +310,7 @@ desktop version
         /* filter: brightness(5%); */
         background-size: cover;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
 
     }
     .phone-image{
