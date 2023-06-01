@@ -41,8 +41,6 @@ body {
     align-items: center;
     gap: 10px;
     font-size: 12px;
-
-
 }
 
 
@@ -54,7 +52,6 @@ body {
     display: flex;
     flex-direction: column;
     visibility: hidden;
-
 }
 
 .navbar__links a {
@@ -62,7 +59,7 @@ body {
     flex-direction: column;
     text-decoration: none;
     color: black;
-
+    transition: all 0.3s ease-in;
 }
 
 
@@ -92,8 +89,11 @@ body {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: aqua;
+color: red;
+font-weight: bold;
+
 }
+
 
 .dropdown-content {
     display: none;
@@ -104,14 +104,14 @@ body {
     z-index: 1;
 }
 
-.dropdown-content a {
+/* .dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-}
+} */
 
 .dropdown-content a:hover {
     background-color: #ddd;
@@ -135,9 +135,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
-    padding: 40px 20px;
+    padding: 90px 60px;
     gap: 30px;
 
 }
@@ -146,6 +146,9 @@ body {
 .section__1 .section__text h1 {
     font-size: 40px;
     font-weight: bolder;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
 
 }
 
@@ -168,7 +171,13 @@ body {
     flex-direction: column;
     margin: 20px 0;
     cursor: pointer;
+    transition:  all 0.5s ease-in-out;
 }
+
+.section__btn button:hover {
+ color: 2px solid red;
+}
+
 
 
 .btn-center {
@@ -203,19 +212,23 @@ body {
     height: auto;
 }
 
+
+
+
 /* section cards */
 
 .section__cards {
     margin: 0 20px;
     background-color: rgb(228,245,252);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    display: flex;;
     text-align: center;
+    flex-direction: column;
     padding: 80px 20px;
-    gap: 70px;
 }
+
+
+
 
 .section__cards .card__box {
     background-color:rgba(190, 238, 248, 0.23);
@@ -223,12 +236,16 @@ body {
     font-size: 20px;
     line-height: 30px;
     border-radius: 30px;
+    gap: 30px;
 }
 
-/* .section__cards .card__box   {
-  
-} */
 
+.section__cards .box-1 , .section__cards .box-2 {
+    gap: 30px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -240,28 +257,76 @@ desktop version
 @media screen and (min-width: 450px) {
 
     body {
-
-
         display: flex;
         flex-direction: column;
         align-items: center;
+
     }
-
-
-
-    /* .hero {
-     
-
-        display: flex;
-    } */
-
-
-    .myPart {
-
+        .hero {
         width: 100%;
+        height: 100vh;
+         } 
+  
+         .navbar {
+             display: flex;
+           justify-content: space-around;
+           align-content: center;
+           align-items: center;
+            
+         }
+ 
+          .navbar__links   {
+            margin: 30px 0;
+             visibility:visible;
+             gap: 10px;
+             font-size: 18px;
+             display: flex;
+             justify-content: space-between;
+             flex-direction: row;
+             font-weight: normal;
+         } 
+        
+
+         .navbar__links .active {
+            color: red;
+         }
+
+        
 
 
-        display: flex;
+       
+         .navbar__closeBtn {
+             display: none;
+         }
+          
 
-    }
+         
+         
+
+         .section__1  {
+                margin: 0 20px;
+                background-color: rgb(228,245,252);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                /* text-align: center; */
+                padding: 30px -500px;
+               
+        
+         }
+           
+
+
+         .section__cards .box-1 , .section__cards .box-2 {
+            display: flex;
+            gap: 50px;
+            /* margin: 30px; */
+            justify-content: center;
+            align-items: center;
+            padding: 0 350px;
+            margin: 10px 0;
+            flex-direction: row;
+         }
+         
 }
