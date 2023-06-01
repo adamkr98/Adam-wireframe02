@@ -672,6 +672,26 @@ desktop version
     padding-top: 1rem;
    }
 
+   .containerTimerText1 {
+    /* border: red solid 2px; */
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+   }
+
+   .rightArrowTimerText {
+    border-top: #594CD9 solid 2px;
+    border-right: #594CD9 solid 2px;
+
+    width: 0.7rem;
+    height: 0.7rem;
+
+    transform: rotate(45deg);
+
+    display: flex;
+   }
+
    .timerText1 {
     /* border: green solid 2px; */
 
@@ -681,12 +701,28 @@ desktop version
 
    }
 
+   .containerTimerText2 {
+     /* border: red solid 2px; */
+     width: 100%;
+
+     display: flex;
+     align-items: flex-start;
+   }
+
    .timerText2 {
     /* border: green solid 2px; */
 
     width: 80%;
 
     padding-bottom: 1rem;
+   }
+
+   .containerTimerText3 {
+     /* border: red solid 2px; */
+     width: 100%;
+
+     display: flex;
+     align-items: flex-start;
    }
 
    .timerText3 {
