@@ -261,8 +261,9 @@ picksbar-container {
 .timerTextTitle {
     /* border: green solid 2px; */
     width: 90%;
-    color: black;
+    color: #252D38;
     margin-bottom: 1rem;
+    margin-left: 1rem;
     font-size: 2rem;
 }
 
@@ -271,6 +272,8 @@ picksbar-container {
 .timerText3 {
     /* border: green solid 2px; */
     width: 90%;
+    color: #90989B;
+    margin-left: 1rem;
 
     font-size: 1.2rem;
 }
@@ -280,6 +283,7 @@ picksbar-container {
     width: 90%;
 
     margin-top: 2rem;
+    margin-left: 1rem;
     /* padding-left: 5rem; */
 
     display: flex;
@@ -289,7 +293,7 @@ picksbar-container {
 }
 
 .lightbox {
-    /* border: green solid 2px; */
+    border: none;
     background-color: #594CDA;
     color: white;
 
@@ -327,6 +331,7 @@ picksbar-container {
 
 .platformIntegrationTitle {
     /* border: green solid 2px; */
+    color: #252D38;
     display: flex;
     font-size: 2rem;
 
@@ -335,6 +340,7 @@ picksbar-container {
 
 .platformIntegrationText1 {
     /* border: green solid 2px; */
+    color: #90989B;
     margin-top: 1rem;
     margin-bottom: 1rem;
 
@@ -346,6 +352,7 @@ picksbar-container {
 
 .platformIntegrationText2 {
     /* border: green solid 2px; */
+    color: #90989B;
     margin-bottom: 2.2rem;
     font-size: 1.2rem;
 
@@ -554,7 +561,7 @@ picksbar-container {
 }
 
 .reviewText {
-    color: #6B747D;
+    color: #90989B;
     font-size: 1.3rem;
     font-style: italic;
 
@@ -651,8 +658,8 @@ desktop version
 
    .containerTimerText {
     /* border: rgb(60, 255, 0) solid 2px; */
-
     width: 45%;
+
     
     display: flex;
     flex-direction: column;
