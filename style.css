@@ -11,13 +11,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color:rgb(255, 255, 255) ;
 }
 
 .bottom-content{
     position: relative;
 }
 
-.bottom-content .toptop {
+/* .bottom-content .toptop {
     background-image: url("pricing-background.jpg");
     backface-visibility: 50%;
     opacity: 0.75;
@@ -26,14 +27,44 @@ body {
     text-align: justify;
     text-align-last: center;
     /* filter: brightness(70%); */
-    background-size: cover;
+    /* background-size: cover;
     z-index: 0;
+} */
+
+.toptop {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: rgb(32, 32, 32);
+    position: relative;
+
 }
+.toptop::before {
+    content: "";
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(pricing-background2.jpg);
+    background-size: cover;
+    filter: brightness(30%);
+}
+.toptop-inside{
+    position: relative;
+    text-align: justify;
+    text-align-last: center;
+    width: 90%;
+}
+
+
 .bottom-content .toptop h2{
-    color: rgb(194, 194, 194);
+    color: rgb(240, 240, 240);
 }
 .bottom-content .toptop p1{
-    color: rgb(194, 194, 194);
+    color: rgb(240, 240, 240);
 }
 
 .bottom-content .team p{
@@ -121,7 +152,7 @@ body {
 
 .bottom-content .Standard {
     width: 100%;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(240, 240, 240);
     padding-top: 4%;
     padding-bottom: 8%;
     border-radius: 15px;
@@ -133,7 +164,7 @@ body {
   
 .bottom-content .Advanced {
     width: 100%;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(240, 240, 240);
     padding-top: 4%;
     padding-bottom: 8%;
     border-radius: 15px;
@@ -145,7 +176,7 @@ body {
   
 .bottom-content .Complete {
     width: 100%;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(240, 240, 240);
     padding-top: 4%;
     padding-bottom: 8%;
     border-radius: 15px;
@@ -178,7 +209,7 @@ body {
 .social-media-icons ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 30px 10% 50px 10%;
   }
@@ -234,11 +265,16 @@ desktop version
         display: flex;
         flex-direction: column;
     }
+    .bottom-content .toptop{
+        padding-top: 60px;
+    }
     .bottom-content .Pricings{
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         width: 100%;
+        padding-top: 20px;
+        margin-bottom: -50px;
         
     }
 
@@ -266,8 +302,8 @@ desktop version
     .bottom-content .Standard .Downl{
         margin-left: 0;
         margin-bottom: 0;
-        left: 19%;
-        top: 27%;
+        left: 12%;
+        top: 104%;
 
     }
     .bottom-content .Advanced{
@@ -280,7 +316,7 @@ desktop version
         margin-left: 0;
         margin-bottom: 0;
         left: 47%;
-        top: 27%;
+        top: 104%;
 
     }
     .bottom-content .Complete{
@@ -292,8 +328,8 @@ desktop version
     .bottom-content .Complete .Downl{
         margin-left: 0;
         margin-bottom: 0;
-        left: 75%;
-        top: 27%;
+        left: 82%;
+        top: 104%;
 
     }
     
@@ -329,7 +365,7 @@ desktop version
     .ToDownload{
         margin-left: -150px;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
     }
     .IosBut{
         width: 40%;
