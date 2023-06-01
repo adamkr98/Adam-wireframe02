@@ -13,7 +13,9 @@ body {
     align-items: center;
 }
 
-
+.bottom-content{
+    position: relative;
+}
 
 .bottom-content .toptop {
     background-image: url("pricing-background.jpg");
@@ -23,17 +25,16 @@ body {
     margin: 5%;
     text-align: justify;
     text-align-last: center;
-    /* filter: brightness(5%); */
+    /* filter: brightness(70%); */
     background-size: cover;
     z-index: 0;
-
-
 }
 .bottom-content .team p{
     font-weight: bolder;
     margin: 50px 8% 50px 8%;
     font-size: 40px;
     text-align: center;
+    
 }
 
 
@@ -48,17 +49,30 @@ body {
     font-size: 20px;
     color: red;
 }
+.bottom-content .Downl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    position: absolute;
+    left: 45%;
+    height: 40px;
+    background-color: #6131ad;
+    text-shadow: 0px 0px 1px #000;
+    border-radius: 20px;
 
+}
 .Download{
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    position: absolute;
     text-align: center;
     align-items: center;
-    margin-top: -20px;
-    margin-left: 35%;
     height: 40px;
-    width: 30%;
+    padding: 15px 20px 15px 20px;
+    left: -20px;
+    top: 10px;
     cursor: pointer;
     background-color: #6131ad;
     border-radius: 20px;
@@ -103,9 +117,9 @@ body {
     background-color: white;
     padding-top: 4%;
     padding-bottom: 8%;
+    border-radius: 15px;
     margin-top: 20px;
     text-align: center;
-    z-index: 4;
 
 
 }
@@ -115,6 +129,7 @@ body {
     background-color: white;
     padding-top: 4%;
     padding-bottom: 8%;
+    border-radius: 15px;
     margin-top: 20px;
     text-align: center;
     z-index: 4;
@@ -126,6 +141,7 @@ body {
     background-color: white;
     padding-top: 4%;
     padding-bottom: 8%;
+    border-radius: 15px;
     margin-top: 20px;
     text-align: center;
     z-index: 4;
@@ -161,12 +177,38 @@ body {
   }
   
 .social-media-icons li {
+    background-color: white;
+    border-radius: 25px;
     margin-right: 20px;
     width: 50px; 
     height: 50px;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.footer .Copy p{
+    color: #707070;
+    font-size: 20px;
+    width: 37%;
+    margin-left: 27%;
+}
+
+.notification {
+    background-image: url('up-arrow.png');
+    background-position: center;
+    background-color: rgb(41, 41, 41);
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 50px; 
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 25px 25px;
+    background-color: rgb(109, 109, 109);
+    padding: 10px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+  }
   
 
 
@@ -179,14 +221,145 @@ desktop version
 
 
 
-/* @media screen and (min-width: 450px) {
+@media screen and (min-width: 700px) {
     
     body {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom-content .Pricings{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
         
+        border: blue solid 4px;
+    }
 
+    /* .bottom-content .Downl{
+        border: red solid 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0px;
+
+        height: 40px;
+    } */
+
+
+
+
+    .bottom-content .Standard{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 30%;
+        margin-right: 0%;
+
+        border: red solid 4px;
+    }
+    .bottom-content .Standard .Downl{
+        margin-left: 0;
+        margin-bottom: 0;
+        left: 19%;
+        top: 28%;
+
+    }
+    .bottom-content .Advanced{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        border: green solid 4px;
+    }
+    .bottom-content .Advanced .Downl{
+        margin-left: 0;
+        margin-bottom: 0;
+        left: 47%;
+        top: 28%;
+
+    }
+    .bottom-content .Complete{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        border: purple solid 4px;
+    }    
+    .bottom-content .Complete .Downl{
+        margin-left: 0;
+        margin-bottom: 0;
+        left: 74%;
+        top: 28%;
+
+    }
+    
+    
+    
+    
+    
+    .teamPhoneImg{ 
+        background-image: url("conclusion-background.jpg");
+        padding: 5%;
+        margin: 5%;
+        text-align: justify;
+        text-align-last: center;
+        /* filter: brightness(5%); */
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .phone-image{
+        display: flex;
+        width: 40%;
+    }
+    .teamBut{
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+
+    }
+    .team p{
+        font-size: 18px;
+    }
+    .ToDownload{
+        margin-left: -150px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .IosBut{
+        width: 40%;
+
+    }
+    .AndBut{
+        width: 40%;
+
+    }
+    .IOSDownload{
+        display: flex;
+        width: 80%;
+
+    }
+    .ANDROIDDownload{
+        display: flex;
+        width: 80%;
+
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
     }
 
-} */
+    .footer .Copy p{
+        font-size: 20px;
+        color: #707070;
+        width: 80%;
+        margin-left: 5%;
+    }
+
+}
+
+
